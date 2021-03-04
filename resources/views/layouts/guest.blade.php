@@ -7,6 +7,8 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
+        <link rel="icon" href="{{ asset('images/welcome_images/logo.svg') }}">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
@@ -15,6 +17,19 @@
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
+
+        <!-- Internal styles -->
+        <style type="text/css">
+          .min-h-screen {
+            background-color: #1D2026;
+          }
+          .bg-white {
+            background-color: #525a6c;
+          }
+          .text-sm {
+            color: #e3e3e3;
+          }
+        </style>
     </head>
     <body>
         <div class="font-sans text-gray-900 antialiased">
