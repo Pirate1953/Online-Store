@@ -13,7 +13,7 @@ class AuthenticatedSessionController extends Controller
     /**
      * Display the login view.
      *
-     * @return \Illuminate\View\View
+     * @return Render of view
      */
     public function create()
     {
@@ -23,8 +23,8 @@ class AuthenticatedSessionController extends Controller
     /**
      * Handle an incoming authentication request.
      *
-     * @param  \App\Http\Requests\Auth\LoginRequest  $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @param  $request - Request that contains data for authentication
+     * @return Redirect to home page
      */
     public function store(LoginRequest $request)
     {
@@ -38,8 +38,8 @@ class AuthenticatedSessionController extends Controller
     /**
      * Destroy an authenticated session.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @param  $request - Request that contains data of session
+     * @return Redirect to main page
      */
     public function destroy(Request $request)
     {

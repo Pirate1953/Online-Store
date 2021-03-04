@@ -15,7 +15,7 @@ class RegisteredUserController extends Controller
     /**
      * Display the registration view.
      *
-     * @return \Illuminate\View\View
+     * @return Render of view
      */
     public function create()
     {
@@ -25,10 +25,10 @@ class RegisteredUserController extends Controller
     /**
      * Handle an incoming registration request.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @param  $request - Request that contains data for regustration
+     * @return Redirect to home page
      *
-     * @throws \Illuminate\Validation\ValidationException
+     * @throws Validation exception
      */
     public function store(Request $request)
     {
