@@ -25,7 +25,7 @@ class RegisteredUserController extends Controller
     /**
      * Handle an incoming registration request.
      *
-     * @param  $request - Request that contains data for regustration
+     * @param  $request - Request that contains data for registration
      * @return Redirect to home page
      *
      * @throws Validation exception
