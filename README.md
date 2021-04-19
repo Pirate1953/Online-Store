@@ -17,7 +17,7 @@ This project was created as simple online store project for studying Laravel fra
 Laravel 8 is used to make project. To know what resources was used in development see the section below where Laravel framework description is.
 
 ## About Laravel framework
-![Login page](https://github.com/Pirate1953/Online-Store/blob/master/rm_images/laravl_logo.png)
+![Login page](https://github.com/Pirate1953/Online-Store/blob/master/rm_images/larav_logo.png)
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects.
 
