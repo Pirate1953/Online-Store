@@ -2,8 +2,17 @@
 
 This project was created as simple online store project for studying Laravel framework. This project uses ready html templates for web-pages. Here is some images:
 
-Top of main page
+## Top of main page
 ![Top of main page](https://github.com/Pirate1953/Online-Store/blob/master/rm_images/1.png)
+
+## Middle of main page
+![Middle of main page](https://github.com/Pirate1953/Online-Store/blob/master/rm_images/2.png)
+
+## Registration page
+![Registration page](https://github.com/Pirate1953/Online-Store/blob/master/rm_images/3.png)
+
+## Login page
+![Login page](https://github.com/Pirate1953/Online-Store/blob/master/rm_images/4.png)
 
 ## About Laravel framework
 
