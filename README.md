@@ -22,6 +22,8 @@ What was used in application:
 3. Migrations for database. [Migrations](https://laravel.com/api/8.x/)
 4. Models to work with tables in database [Models](https://laravel.com/api/8.x/)
 
+See [Wiki](https://laravel.com/api/8.x/) to read API documentation.
+
 ## About Laravel framework
 ![Login page](https://github.com/Pirate1953/Online-Store/blob/master/rm_images/larav_logo.png)
 
