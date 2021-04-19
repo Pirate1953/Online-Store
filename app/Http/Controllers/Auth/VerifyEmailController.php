@@ -12,8 +12,8 @@ class VerifyEmailController extends Controller
     /**
      * Mark the authenticated user's email address as verified.
      *
-     * @param  \Illuminate\Foundation\Auth\EmailVerificationRequest  $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @param $request - Contains email verification data
+     * @return Redirect to home page
      */
     public function __invoke(EmailVerificationRequest $request)
     {

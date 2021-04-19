@@ -10,10 +10,10 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
   /**
-   * Returns the user object that contains user from the database
+   * Returns the view with user object from database
    *
    * @param $id - User id to get from database
-   * @return User object
+   * @return Render of view
    */
   public function show($id)
   {

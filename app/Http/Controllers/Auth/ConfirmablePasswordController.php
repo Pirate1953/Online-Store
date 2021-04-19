@@ -13,8 +13,8 @@ class ConfirmablePasswordController extends Controller
     /**
      * Show the confirm password view.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\View\View
+     * @param $request - Request that contains data for confirmation
+     * @return Render of view
      */
     public function show(Request $request)
     {
@@ -24,7 +24,7 @@ class ConfirmablePasswordController extends Controller
     /**
      * Confirm the user's password.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param $request - Request that contains data for confirmation
      * @return mixed
      */
     public function store(Request $request)
