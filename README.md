@@ -16,6 +16,12 @@ This project was created as simple online store project for studying Laravel fra
 
 Laravel 8 is used to make project. To know what resources was used in development see the section below where Laravel framework description is.
 
+What was used in application:
+1. Controller methods for logic and data processing. [Controllers](https://laravel.com/api/8.x/)
+2. Blade view engine for web-pages. [Views](https://laravel.com/api/8.x/)
+3. Migrations for database. [Migrations](https://laravel.com/api/8.x/)
+4. Models to work with tables in database [Models](https://laravel.com/api/8.x/)
+
 ## About Laravel framework
 ![Login page](https://github.com/Pirate1953/Online-Store/blob/master/rm_images/larav_logo.png)
 
