@@ -33,9 +33,9 @@
                 <div class="container">
                     <div class="hero-inner">
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Online store</h1>
-	                        <p class="hero-paragraph">Заказывайте мобильные телефоны по низким ценам</p>
-	                        <div class="hero-cta"><a class="button button-primary" href="#">Перейти к каталогу</a><a class="button" href="{{ route('login') }}">Уже зарегистрированы?</a></div>
+	                        <h1 class="hero-title mt-0">{{ __('Online store') }}</h1>
+	                        <p class="hero-paragraph">{{ __('Онлайн магазин мобильных телефонов') }}</p>
+	                        <div class="hero-cta"><a class="button button-primary" href="#">{{ __('Перейти к каталогу') }}</a><a class="button" href="{{ route('login') }}">{{ __('Уже зарегистрированы?') }}</a></div>
 						</div>
 						<div class="hero-figure anime-element">
 							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
@@ -65,8 +65,8 @@
                                     <div class="feature-icon">
 										<img src="{{ asset('images/welcome_images/feature-icon-01.svg') }}" alt="Feature 01">
                                     </div>
-                                    <h4 class="feature-title mt-24">Новинки</h4>
-                                    <p class="text-sm mb-0">Новые линейки продукции от производителя.</p>
+                                    <h4 class="feature-title mt-24">{{ __('Новинки') }}</h4>
+                                    <p class="text-sm mb-0">{{ __('Новые линейки продукции от производителя') }}</p>
                                 </div>
                             </div>
 							<div class="feature text-center is-revealing">
@@ -74,8 +74,8 @@
                                     <div class="feature-icon">
 										<img src="{{ asset('images/welcome_images/feature-icon-02.svg') }}" alt="Feature 02">
                                     </div>
-                                    <h4 class="feature-title mt-24">Лучшие цены</h4>
-                                    <p class="text-sm mb-0">ЛУчшеи цены на линейки мобильной продукции</p>
+                                    <h4 class="feature-title mt-24">{{ __('Лучшие цены') }}</h4>
+                                    <p class="text-sm mb-0">{{ __('ЛУчшеи цены на линейки мобильной продукции') }}</p>
                                 </div>
                             </div>
                             <div class="feature text-center is-revealing">
@@ -83,8 +83,8 @@
                                     <div class="feature-icon">
 										<img src="{{ asset('images/welcome_images/feature-icon-03.svg') }}" alt="Feature 03">
                                     </div>
-                                    <h4 class="feature-title mt-24">100% качество</h4>
-                                    <p class="text-sm mb-0">Новые линейки с отсечённым браком.</p>
+                                    <h4 class="feature-title mt-24">{{ __('Дополнительные услуги') }}</h4>
+                                    <p class="text-sm mb-0">{{ __('Бонусы к покупке') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -96,30 +96,30 @@
                 <div class="container-sm">
                     <div class="pricing-inner section-inner">
                         <div class="pricing-header text-center">
-                            <h2 class="section-title mt-0">С нами очень просто</h2>
+                            <h2 class="section-title mt-0">{{ __('С нами очень просто') }}</h2>
                         </div>
 						<div class="pricing-tables-wrap">
                             <div class="pricing-table">
                                 <div class="pricing-table-inner is-revealing">
                                     <div class="pricing-table-main">
                                         <div class="pricing-table-header pb-24">
-                                            <div class="pricing-table-price"><span class="pricing-table-price-currency h2">Предлагаем ознакомится</div>
+                                            <div class="pricing-table-price"><span class="pricing-table-price-currency h2">{{ __('Предлагаем ознакомится') }}</div>
                                         </div>
-										<div class="pricing-table-features-title text-xs pt-24 pb-24">Схема работы:</div>
+										<div class="pricing-table-features-title text-xs pt-24 pb-24">{{ __('Покупка в три этапа:') }}</div>
                                         <ul class="pricing-table-features list-reset text-xs">
                                             <li>
-                                                <span>1. Выбор продукции</span>
+                                                <span>{{ __('1. Выбор продукции') }}</span>
                                             </li>
                                             <li>
-                                                <span>2. Формирование заказа</span>
+                                                <span>{{ __('2. Формирование заказа') }}</span>
                                             </li>
                                             <li>
-                                                <span>3. Оплата</span>
+                                                <span>{{ __('3. Оплата') }}</span>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="pricing-table-cta mb-8">
-                                        <a class="button button-primary button-shadow button-block" href="#">Перейти к каталогу</a>
+                                        <a class="button button-primary button-shadow button-block" href="#">{{ __('Перейти к каталогу') }}</a>
                                     </div>
                                 </div>
                             </div>
@@ -131,9 +131,9 @@
 			<section class="cta section">
 				<div class="container">
 					<div class="cta-inner section-inner">
-						<h3 class="section-title mt-0">Ещё не зарегистрированы?</h3>
+						<h3 class="section-title mt-0">{{ __('Ещё не зарегистрированы?') }}</h3>
 						<div class="cta-cta">
-							<a class="button button-primary button-wide-mobile" href="{{ route('register') }}">Сделайте это сейчас!</a>
+							<a class="button button-primary button-wide-mobile" href="{{ route('register') }}">{{ __('Сделайте это сейчас!') }}</a>
 						</div>
 					</div>
 				</div>
@@ -150,26 +150,26 @@
                     </div>
                     <ul class="footer-links list-reset">
                         <li>
-                            <a href="#">Контакты</a>
+                            <a href="#">{{ __('Контакты') }}</a>
                         </li>
                         <li>
-                            <a href="#">О нас</a>
+                            <a href="#">{{ __('О нас') }}</a>
                         </li>
                         <li>
-                            <a href="#">Поддержка</a>
+                            <a href="#">{{ __('Поддержка') }}</a>
                         </li>
                     </ul>
                     <ul class="footer-social-links list-reset">
                         <li>
                             <a href="#">
-                                <span class="screen-reader-text">Google</span>
+                                <span class="screen-reader-text">{{ __('Google') }}</span>
                                 <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#0270D7"/>
                                 </svg>
                             </a>
                         </li>
                     </ul>
-                    <div class="footer-copyright">&copy; 2021 Online-store, все права защищены</div>
+                    <div class="footer-copyright">&copy; {{ __('2021 Online-store, все права защищены') }}</div>
                 </div>
             </div>
         </footer>
