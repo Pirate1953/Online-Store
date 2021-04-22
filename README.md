@@ -6,7 +6,7 @@ This project was created as simple online store project for studying Laravel fra
 ![Top of main page](https://github.com/Pirate1953/Online-Store/blob/master/rm_images/1.png)
 
 ## Middle of main page
-![Middle of main page](https://github.com/Pirate1953/Online-Store/blob/master/rm_images/2.png)
+![Middle of main page](https://github.com/Pirate1953/Online-Store/blob/master/rm_images/new_2.png)
 
 ## Registration page
 ![Registration page](https://github.com/Pirate1953/Online-Store/blob/master/rm_images/3.png)
