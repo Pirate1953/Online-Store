@@ -18,7 +18,7 @@ Laravel 8 is used to make project. To know what resources was used in developmen
 
 What was used in application:
 1. Controller methods for logic and data processing. [Controllers](https://github.com/Pirate1953/Online-Store/tree/master/app/Http/Controllers)
-2. Blade view engine for web-pages. [Views](https://github.com/Pirate1953/Online-Store/tree/master/resources/views)
+2. Blade template engine for web-pages. [Views](https://github.com/Pirate1953/Online-Store/tree/master/resources/views)
 3. Migrations for database. [Migrations](https://github.com/Pirate1953/Online-Store/tree/master/database/migrations)
 4. Models to work with tables in database [Models](https://github.com/Pirate1953/Online-Store/tree/master/app/Models)
 
