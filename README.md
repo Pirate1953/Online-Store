@@ -1,6 +1,6 @@
 ## About Online Store
 
-This project was created as simple online store project for studying Laravel framework. This project uses ready html templates for web-pages. Also it uses some ready solutions to make simple registration and authorization modules and CSS frmaewordk for it. This application uses russian language on pages but later project will have english language too (Language will be added in special .json file). Here is some images:
+This project was created as simple online store project for studying Laravel framework. This project uses ready html templates for web-pages. Also it uses some ready solutions to make simple registration and authorization modules and CSS frmaewordk for it. This application uses russian language on pages but later project will have english language too (Language will be added in special .json file). Here are some images:
 
 ## Top of main page
 ![Top of main page](https://github.com/Pirate1953/Online-Store/blob/master/rm_images/1.png)
