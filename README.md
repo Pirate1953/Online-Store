@@ -22,6 +22,8 @@ What was used in application:
 3. Migrations for database. [Migrations](https://github.com/Pirate1953/Online-Store/tree/master/database/migrations)
 4. Models to work with tables in database [Models](https://github.com/Pirate1953/Online-Store/tree/master/app/Models)
 
+## API Docs
+
 See [Wiki](https://github.com/Pirate1953/Online-Store/wiki) to read API documentation.
 
 ## About Laravel framework
