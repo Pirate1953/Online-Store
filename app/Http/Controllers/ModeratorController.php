@@ -2,13 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\HomeController;
 
-use Illuminate\Http\Request;
-
-class UserController extends Controller
+class ModeratorController extends Controller
 {
   /**
    * Displays user index view
@@ -18,9 +16,9 @@ class UserController extends Controller
    */
   public function index(Request $request)
   {
-    if (HomeController::isUser()) {
-      $role_name = DB::table('roles')->where('name', '=', 'user')->value('name');
-      return view('user.index', ['role' => $role_name]);
+    if (HomeController::isModerator()) {
+      $role_name = DB::table('roles')->where('name', '=', 'moderator')->value('name');
+      return view('moderator.index', ['role' => $role_name]);
     }
   }
 }
