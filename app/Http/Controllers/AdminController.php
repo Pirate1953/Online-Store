@@ -20,5 +20,8 @@ class AdminController extends Controller
         $role_name = DB::table('roles')->where('name', '=', 'admin')->value('name');
         return view('admin.index', ['role' => $role_name]);
       }
+      else {
+        abort(403);
+      }
   }
 }

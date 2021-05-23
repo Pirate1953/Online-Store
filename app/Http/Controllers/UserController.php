@@ -22,5 +22,8 @@ class UserController extends Controller
       $role_name = DB::table('roles')->where('name', '=', 'user')->value('name');
       return view('user.index', ['role' => $role_name]);
     }
+    else {
+      abort(403);
+    }
   }
 }

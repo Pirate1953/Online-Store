@@ -20,5 +20,8 @@ class ModeratorController extends Controller
       $role_name = DB::table('roles')->where('name', '=', 'moderator')->value('name');
       return view('moderator.index', ['role' => $role_name]);
     }
+    else {
+      abort(403);
+    }
   }
 }
