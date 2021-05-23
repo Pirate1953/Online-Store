@@ -9,10 +9,10 @@ use App\Http\Controllers\HomeController;
 class ModeratorController extends Controller
 {
   /**
-   * Displays user index view
+   * Displays moderator index view
    *
    * @param $request - request
-   * @return Render of user index view
+   * @return Render of moderator index view
    */
   public function index(Request $request)
   {
